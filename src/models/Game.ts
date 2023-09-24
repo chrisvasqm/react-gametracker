@@ -3,4 +3,7 @@ export default interface Game {
   name: string;
   description: string;
   image: string;
+  isPlaying: boolean;
+  isBeaten: boolean;
+  isBacklogged: boolean;
 }
