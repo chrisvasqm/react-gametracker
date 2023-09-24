@@ -2,16 +2,19 @@
   {
     "id": 1,
     "name": "The Witcher 3: Wild Hunt",
+    "description": "Adventure third person RPG",
     "image": "../images/cover_witcher.jpeg"
   },
   {
     "id": 2,
     "name": "Street Figther 6",
+    "description": "Fighting game",
     "image": "../images/cover_sf6.jpeg"
   },
   {
     "id": 3,
     "name": "Lies of P",
+    "description": "Soulslike action RPG",
     "image": "../images/cover_lop.jpeg"
   }
 ]
