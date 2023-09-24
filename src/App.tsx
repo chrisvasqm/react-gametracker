@@ -1,9 +1,11 @@
-import { Heading } from '@chakra-ui/react';
+import { Container, Heading } from '@chakra-ui/react';
 
 function App() {
   return (
     <>
-      <Heading>Game Tracker</Heading>
+      <Container size={['md', 'sm']}>
+        <Heading>Games Tracker</Heading>
+      </Container>
     </>
   );
 }
