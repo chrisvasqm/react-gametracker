@@ -7,7 +7,14 @@ interface Props {
 
 function GameCard({ game }: Props) {
   return (
-    <Box width={'100%'} borderWidth='1px' borderRadius='lg' overflow='hidden' boxShadow='xl'>
+    <Box
+      marginY={4}
+      width={'100%'}
+      borderWidth='1px'
+      borderRadius='lg'
+      overflow='hidden'
+      boxShadow='xl'
+    >
       <Image src={game.image} width={'100%'} objectFit={'cover'} height={'200px'} />
       <Box padding={6}>
         <Heading>{game.name}</Heading>
