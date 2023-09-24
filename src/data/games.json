@@ -3,18 +3,27 @@
     "id": 1,
     "name": "The Witcher 3: Wild Hunt",
     "description": "Story driven third person RPG",
-    "image": "../src/images/cover_witcher.jpeg"
+    "image": "../src/images/cover_witcher.jpeg",
+    "isPlaying": false,
+    "isBeaten": false,
+    "isBacklogged": false
   },
   {
     "id": 2,
     "name": "Street Figther 6",
     "description": "Fighting game",
-    "image": "../src/images/cover_sf6.jpeg"
+    "image": "../src/images/cover_sf6.jpeg",
+    "isPlaying": false,
+    "isBeaten": false,
+    "isBacklogged": false
   },
   {
     "id": 3,
     "name": "Lies of P",
     "description": "Soulslike action RPG",
-    "image": "../src/images/cover_lop.jpeg"
+    "image": "../src/images/cover_lop.jpeg",
+    "isPlaying": false,
+    "isBeaten": false,
+    "isBacklogged": false
   }
 ]
