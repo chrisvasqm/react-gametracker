@@ -1,6 +1,6 @@
 import { Container, Heading } from '@chakra-ui/react';
-import GameCard from './components/GameCard';
 import data from './data/games.json';
+import GamesList from './components/GamesList';
 
 function App() {
   const games = data;
@@ -9,8 +9,7 @@ function App() {
     <>
       <Container size={['md', 'sm']}>
         <Heading>Games Tracker</Heading>
-
-        <GameCard game={games[0]} />
+        <GamesList games={games} />
       </Container>
     </>
   );
