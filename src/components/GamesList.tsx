@@ -6,7 +6,7 @@ interface Props {
 }
 
 function GamesList({ games }: Props) {
-  if (games.length === 0) return <p>No tasks to show.</p>;
+  if (games.length === 0) return <p>No games to show.</p>;
 
   return <>{games && games.map(game => <GameCard game={game} />)}</>;
 }
