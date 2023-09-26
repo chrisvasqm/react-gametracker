@@ -1,5 +1,6 @@
 import { Box, Button, Heading, Image, Text } from '@chakra-ui/react';
 import Game from '../models/Game';
+import { BsArchive, BsController, BsCheckCircle } from 'react-icons/bs';
 
 interface Props {
   game: Game;
@@ -29,13 +30,16 @@ function GameCard({ game }: Props) {
           justifyContent='start'
           alignItems='center'
         >
-          <Button variant='solid' colorScheme='teal'>
+          <Button variant='solid' colorScheme='teal' gap={2}>
+            <BsController />
             Playing
           </Button>
-          <Button variant='solid' colorScheme='teal'>
+          <Button variant='solid' colorScheme='teal' gap={2}>
+            <BsArchive />
             Backlog
           </Button>
-          <Button variant='solid' colorScheme='teal'>
+          <Button variant='solid' colorScheme='teal' gap={2}>
+            <BsCheckCircle />
             Beaten
           </Button>
         </Box>
